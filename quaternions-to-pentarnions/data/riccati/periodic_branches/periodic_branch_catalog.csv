@@ -1,0 +1,12 @@
+branch,existence,stable_interval,left_event,right_event
+Primary P1,Hopf at 0.3687461784 onward,0.3687461784 < γ < 0.4725587590,supercritical Hopf,flip (−1)
+Primary P2,born at γ=0.4725587590,0.4725587590 < γ < 0.4883728577,period doubling,flip (−1)
+Primary P4,born at γ=0.4883728577,0.4883728577 < γ < 0.4922253165,period doubling,flip (−1)
+Primary P8,born at γ=0.4922253165,0.4922253165 < γ < 0.4929960026,period doubling,flip (−1)
+Primary P16,born at γ=0.4929960026,0.4929960026 < γ < 0.4931607195,period doubling,flip (−1)
+Primary P32,born at γ=0.4931607195,0.4931607195 < γ < 0.4931959330,period doubling,flip (−1)
+Broad P2 isola,fold candidates near 0.48726 and 0.72954,"≈(0.48726,0.48767742) ∪ (0.66928036,0.72954)",fold candidate (+1),fold candidate (+1)
+Window C1,fold candidate near 0.72733,"≈(0.72733,0.77887142)",fold candidate (+1),flip (−1)
+Window C2,born at γ=0.77887142,0.77887142 < γ < 0.79308532,period doubling,flip (−1)
+Window C4,born at γ=0.79308532,0.79308532 < γ < 0.79539774,period doubling,flip (−1)
+Narrow P4-like,fold candidate near 0.853158,"≈(0.853158,0.855595975)",fold candidate (+1),flip (−1)

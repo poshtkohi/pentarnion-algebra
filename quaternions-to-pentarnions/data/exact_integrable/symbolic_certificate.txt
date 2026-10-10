@@ -1,0 +1,9 @@
+PASS: all four invariant-ideal Lie derivative identities vanish exactly.
+PASS: the restricted vector field agrees with the Jacobi reduction.
+PASS: the eliminated curve is x^2=(1-w^2)(1-m w^2), m=mu*gamma.
+
+Lie derivative identities:
+L_F G1 = w*x*(-w**2 + y)*(4*gamma*mu + 4) + 2*w*(-w*x + z)*(-w*(2*gamma*mu + 2) + 1)
+L_F G2 = gamma*mu*y**2 + 3*mu*w*(-gamma*w*y + u) - x**2 + x*(-w*x + z)*(-w*(2*gamma*mu + 2) + 1) - y*(gamma*mu + 1) + (-w**2 + y)*(-gamma*mu*y + gamma*mu - w + x**2*(2*gamma*mu + 2) + 1) + 1
+L_F G3 = gamma*x*(-w**2 + y)*(y*(2*gamma*mu + 2) - 1) + gamma*(-w*x + z)*(-w*y*(2*gamma*mu + 2) + 3*w + y)
+L_F G4 = 2*x*(-w**2 + y)

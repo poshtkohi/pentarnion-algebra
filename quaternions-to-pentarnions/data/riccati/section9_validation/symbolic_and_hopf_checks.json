@@ -1,0 +1,12 @@
+{
+  "charpoly_residual": "0",
+  "gammaH": 0.36874617836683726,
+  "omegaH": 2.306641614162267,
+  "crossing_speed": 0.9770841445278778,
+  "first_Lyapunov_coefficient": -0.1832582814093947,
+  "l1_convention": "f=Lx+B2(x,x)/2; ||q||_2=1; conjugate(p).T q=1; l1=Re(G21)/(2 omega)",
+  "l1_reference": "Y. A. Kuznetsov, Andronov-Hopf bifurcation, Scholarpedia 1(10):1858 (2006)",
+  "eigenvector_residual": 9.163544378420584e-16,
+  "adjoint_residual": 2.641168033071757e-15,
+  "divergence": "2*gamma*u + 10*w - 8*y - 5/2"
+}

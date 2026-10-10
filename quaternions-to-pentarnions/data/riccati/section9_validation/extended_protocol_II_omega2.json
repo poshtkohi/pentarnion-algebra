@@ -1,0 +1,56 @@
+[
+  {
+    "coordinates": "p",
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "max_step": 0.05,
+    "end_time": 1200.0,
+    "success": true,
+    "radius_limit_reached": false,
+    "maximum_radius_at_adaptive_nodes": 9.886220547575807,
+    "final_radius": 0.2753160465110676,
+    "final_actual_state": [
+      0.02432470176087099,
+      -0.10050175665709861,
+      -0.10644639822178666,
+      0.22416269004379039,
+      0.059387574100199875
+    ]
+  },
+  {
+    "coordinates": "p",
+    "rtol": 1e-12,
+    "atol": 1e-14,
+    "max_step": 0.05,
+    "end_time": 1200.0,
+    "success": true,
+    "radius_limit_reached": false,
+    "maximum_radius_at_adaptive_nodes": 21.130222672059038,
+    "final_radius": 0.2753160465110917,
+    "final_actual_state": [
+      0.024324701760867134,
+      -0.10050175665710408,
+      -0.10644639822180298,
+      0.22416269004380845,
+      0.059387574100206605
+    ]
+  },
+  {
+    "coordinates": "q",
+    "rtol": 1e-11,
+    "atol": 9.999999999999999e-14,
+    "max_step": 0.05,
+    "end_time": 1200.0,
+    "success": true,
+    "radius_limit_reached": false,
+    "maximum_radius_at_adaptive_nodes": 9.884652866005824,
+    "final_radius": 0.27531604651125635,
+    "final_actual_state": [
+      0.024324701760853152,
+      -0.10050175665707932,
+      -0.10644639822161084,
+      0.224162690044109,
+      0.05938757410022736
+    ]
+  }
+]

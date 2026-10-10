@@ -1,0 +1,21 @@
+{
+  "scope": "symbolic identity; numerical Hopf coefficient; seven periodic seeds; targeted gamma=.6 spectra; Protocol II omega=2 adaptive response; derived phase and event diagnostics",
+  "not_rerun": "original global static scans, two-protocol frequency scans, full continuation campaigns",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "matplotlib": "3.10.8"
+  },
+  "source_sha256": {
+    "code/08_riccati_dynamics/section9_validation/localise_archived_events.py": "7d7a1a3c5b5802570a4e4dd5cadb01ef8a56d1641bfc77554eb488c03423b5d8",
+    "code/08_riccati_dynamics/section9_validation/make_validation_figures.py": "6b63771dfb69730c70e80ad02c1c2691c8de92633b7a89cb10d26f5bf441a00f",
+    "code/08_riccati_dynamics/section9_validation/run_checks.py": "20002ea765b15cbc235960ce1ea42882024d406767a7a597e9668803286960aa",
+    "code/08_riccati_dynamics/section9_validation/sample_archived_forcing_phase.py": "22cbb9ac113b65148b243befa017fd34cfaf734d02e12295c698109f31170ed0",
+    "code/08_riccati_dynamics/section9_validation/targeted_spectrum.cpp": "73ce4dccd1947e0f33069d79863e16daff00776f4dfa0648da21a3a56d8ba0c5",
+    "code/08_riccati_dynamics/section9_validation/verify_section9.py": "b43273c4caee7175e290ec0b3273974d67dd08fa2bbc375266c1d89298344538"
+  }
+}

@@ -1,0 +1,7 @@
+parent_branch,reference_gamma,gamma_left,gamma_right,bracket_width,multiplier_left,multiplier_right,secant_gamma,secant_minus_reference,source_csv,method,daughter_orbit_archived
+P1,0.4725587589687424,0.47254,0.47256,1.999999999996449e-05,-0.9994679722591407,-1.0000351971936912,0.47255875896874244,5.551115123125783e-17,P1_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,True
+P2,0.4883728577128791,0.4883,0.4884,9.999999999998899e-05,-0.9910327843617264,-1.0033406311001385,0.48837285771287914,5.551115123125783e-17,P2_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,True
+P4,0.49222531645515,0.4922,0.49225,4.999999999999449e-05,-0.9847961513532544,-1.0148237530784274,0.49222531645515,0.0,P4_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,True
+P8,0.4929960025751557,0.49298,0.493,2.0000000000020002e-05,-0.9552267347322644,-1.0111843101000964,0.4929960025751557,0.0,P8_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,True
+P16,0.493160719510904,0.49316,0.493165,5.000000000032756e-06,-0.9905339461737432,-1.056315116220203,0.49316071951090407,5.551115123125783e-17,P16_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,True
+P32,0.4931959330334634,0.4931959,0.493196,1.0000000000287557e-07,-0.9979742591444696,-1.0041066493044442,0.4931959330334634,0.0,P32_floquet.csv,nearest-real-to-minus-one; adjacent archived samples; secant interpolation,False
