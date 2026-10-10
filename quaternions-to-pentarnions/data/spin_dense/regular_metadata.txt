@@ -1,0 +1,12 @@
+omega=0.29999999999999999
+forcing_period=20.943951023931955
+steps_per_period=800
+dt=0.026179938779914945
+transient_periods=300
+retained_periods=900
+trajectory_rows=24001
+stroboscopic_rows=900
+display_window=60
+display_rows=2293
+max_norm_error=2.2204460492503131e-16
+max_work_identity_error=8.3703155589823219e-06
