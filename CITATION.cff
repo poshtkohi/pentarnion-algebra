@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated article and record the repository revision used."
+title: "From Quaternions to Pentarnions: geometry and nonlinear dynamics"
+type: software
+authors:
+  - family-names: "Poshtkohi"
+    given-names: "Alireza"
+  - family-names: "Pumplün"
+    given-names: "Susanne"
+repository-code: "https://github.com/poshtkohi/pentarnion-algebra"
+keywords:
+  - Pentarnion algebras
+  - Nonassociative algebras
+  - Quadratic algebras
+  - Rotational geometry
+  - Algebra-valued differential equations
+  - Nonlinear dynamics
