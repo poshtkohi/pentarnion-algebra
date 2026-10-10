@@ -59,8 +59,3 @@ Alireza Poshtkohi and Susanne Pumplün,
 
 Citation metadata are provided in [CITATION.cff](CITATION.cff).
 Please also record the Git commit or release used for a calculation.
-
-## Reuse
-
-A software and data licence has not yet been specified. Please contact the
-authors about reuse.
