@@ -1,0 +1,7 @@
+invariant,exact_formula,interpretation
+full_associator_frobenius_norm_squared,3*(41*gamma**2 + 31)/(gamma**2 + 1),Orthogonal-isomorphism invariant of the full 5D algebra
+quaternion_core_associator_norm_squared,42*gamma**2/(gamma**2 + 1),"Restricted to span{i,j,k}; vanishes at gamma=0"
+"associator_[i,j,k]",0 ; sqrt(2)*gamma/(2*sqrt(gamma**2 + 1)) ; sqrt(2)*gamma/sqrt(gamma**2 + 1) ; sqrt(2)*gamma/(2*sqrt(gamma**2 + 1)) ; 0,"Coordinates in basis (1,i,j,k,l)"
+automorphism_group_gamma_0,O(2),Exact
+automorphism_group_gamma_positive,SO(2),Exact for 0<gamma<=1
+left_middle_right_nuclei,R 1,Exact for 0<=gamma<=1
