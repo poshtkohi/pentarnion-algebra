@@ -27,6 +27,7 @@ the MATLAB demonstrations run independently of Python.
 | Six quadratic maps and Jacobian determinants | Exact symbolic generator and expressions |
 | Spin trajectories | Python model, C++ dense-trajectory generator and data |
 | Riccati equation and tangent action | Python model in `code/00_core_algebra/` |
+| Riccati origin characteristic polynomial | Exact standalone verifier and coefficient-by-coefficient result |
 | Riccati scans, periodic-orbit continuation and additional validation | Numerical results and plotting routines; the full set of generating programs is not included |
 
 The complete Riccati continuation and frequency scans cannot be regenerated
@@ -42,7 +43,15 @@ python run_full_verification.py --full --output outputs/exact_checks
 
 The commands run in a temporary copy. The second includes the ordered-product
 and determinant calculations and saves their outputs to a new directory.
-Neither command overwrites `data/`.
+Neither command overwrites `data/`. Both include the exact Riccati
+characteristic-polynomial verifier. To run only that check, without the data
+audit or any numerical data:
+
+```bash
+python code/06_riccati_dynamics/section9_validation/verify_characteristic_polynomial.py
+```
+
+See the [verification details](code/06_riccati_dynamics/section9_validation/README.md#exact-characteristic-polynomial-verification).
 
 ## Plotting
 

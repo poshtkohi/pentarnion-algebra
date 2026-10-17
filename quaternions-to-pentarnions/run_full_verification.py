@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Run the supplied exact-calculation scripts in an isolated working copy.
 
-Default: code/data checks, associator calculation, selected rotational formulas
-and invariant-ideal identities. --full adds the exact ordered-product
+Default: code/data checks, associator calculation, selected rotational formulas,
+invariant-ideal identities and the Riccati characteristic polynomial.
+--full adds the exact ordered-product
 representation and the six Jacobian determinants. Long numerical simulations
 and continuation are not run by this command.
 """
@@ -46,6 +47,7 @@ def main() -> None:
             ('01_structural_invariants', ['generate_algebraic_invariants.py', '--no-plots']),
             ('02_rotational_geometry', ['verify_exact_results.py']),
             ('03_exact_integrable_path', ['symbolic_verification.py']),
+            ('06_riccati_dynamics/section9_validation', ['verify_characteristic_polynomial.py']),
         ]
         if args.full:
             commands.extend([
