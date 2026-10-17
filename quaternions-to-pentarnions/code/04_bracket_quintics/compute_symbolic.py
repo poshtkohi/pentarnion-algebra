@@ -13,8 +13,13 @@ parameter tau.  In that basis:
     sqrt(2)*s=4*tau/(1+2*tau^2)
     gamma=2*sqrt(2)*tau/(1-2*tau^2)
 
-The script writes expanded determinants, exact factorization summaries, the
-quaternion-endpoint factorizations. It does not classify projective singularities.
+The script writes expanded determinants, exact factorization summaries, and
+quaternion-endpoint factorizations. It also verifies the exact nonzero
+Jacobian values Q3(1+ell; gamma)=Q4(1+ell; gamma)=4*gamma/(1+gamma**2).
+Here code indices 3,4 match manuscript map indices 3,4. In the scaled basis,
+1+ell has coordinates (1,0,0,0,sqrt(2)), not (1,0,0,0,1).
+Use --nonzero-only to check these two values without computing the full
+determinant polynomials. The script does not classify projective singularities.
 """
 
 from __future__ import annotations
@@ -115,13 +120,100 @@ def build_jacobians(tau: sp.Symbol, variables: Iterable[sp.Symbol]):
     return [J.applyfunc(lambda e: sp.cancel(sp.expand(e))) for J in jacobians]
 
 
-def compute(output: Path) -> None:
+def verify_nonzero_jacobians(
+    output: Path,
+    tau: sp.Symbol,
+    variables: tuple[sp.Symbol, ...],
+    jacobians: list[sp.Matrix],
+    generic_determinants: dict[int, sp.Expr] | None = None,
+) -> None:
+    """Verify the two middle-map determinants at the actual point 1+ell.
+
+    Determinants are recomputed after substituting the point, over the exact
+    field Q(sqrt(2))(tau). A full run also checks agreement with the freshly
+    computed generic determinant polynomials. Any nonzero residual is fatal.
+    """
+    sqrt2 = sp.sqrt(2)
+    point = dict(zip(variables, (1, 0, 0, 0, sqrt2)))
+    kappa = (1 - 2 * tau**2) / (1 + 2 * tau**2)
+    sigma = 2 * sqrt2 * tau / (1 + 2 * tau**2)
+    gamma = 2 * sqrt2 * tau / (1 - 2 * tau**2)
+    expected = sp.cancel(4 * kappa * sigma)
+    gamma_residual = sp.cancel(expected - 4 * gamma / (1 + gamma**2))
+    if gamma_residual != 0:
+        raise RuntimeError(f"Nonzero-witness parameter check failed: {gamma_residual}")
+
+    field = QQ.algebraic_field(sqrt2).frac_field(tau)
+    lines = [
+        "Exact nonzero Jacobian checks for the two middle-position maps",
+        "Arithmetic: exact over Q(sqrt(2))(tau); no floating-point sampling.",
+        "",
+        "Code indices (1,2,3,4,5,6) correspond to manuscript maps (M0,M2,M3,M4,M5,M1).",
+        "M3(p) = p*(i*p); M4(p) = (p*i)*p; the parentheses are retained.",
+        "Code Q3 and Q4 therefore equal manuscript Q_3 and Q_4, respectively.",
+        "Basis: (1,i,j,k,L), with L=ell/sqrt(2).",
+        "Point: 1+ell; scaled coordinates (w,x,y,z,v)=(1,0,0,0,sqrt(2)).",
+        "kappa=(1-2*tau**2)/(1+2*tau**2)",
+        "sigma=2*sqrt(2)*tau/(1+2*tau**2)",
+        "gamma=2*sqrt(2)*tau/(1-2*tau**2)",
+        "Expected value in tau: 8*sqrt(2)*tau*(1-2*tau**2)/(1+2*tau**2)**2",
+        "Expected value in gamma: 4*gamma/(1+gamma**2)",
+        f"Parameter-identity residual: {gamma_residual}",
+        "For gamma>=0 use 0<=tau<1/sqrt(2); gamma in [0,1] corresponds to",
+        "tau in [0,1-1/sqrt(2)]. The verified value is positive for gamma>0.",
+    ]
+    for index in (3, 4):
+        matrix_at_point = jacobians[index - 1].subs(point).applyfunc(sp.cancel)
+        determinant = field.to_sympy(domain_matrix(matrix_at_point, field).det())
+        determinant = sp.factor(sp.radsimp(determinant))
+        residual = sp.cancel(determinant - expected)
+        if residual != 0:
+            raise RuntimeError(f"Q{index}(1+ell) check failed: residual={residual}")
+
+        lines.extend([
+            "", f"Code Q{index} / manuscript Q_{index}:",
+            "Jacobian at 1+ell in the scaled basis (rows):",
+            *[sp.sstr(list(matrix_at_point.row(r))) for r in range(5)],
+            f"Determinant: {sp.sstr(determinant)}",
+            f"Residual against expected value: {residual}",
+        ])
+        if generic_determinants is not None:
+            generic_value = generic_determinants[index].subs(point)
+            generic_residual = sp.cancel(generic_value - determinant)
+            if generic_residual != 0:
+                raise RuntimeError(
+                    f"Q{index} generic/specialized determinant mismatch: {generic_residual}"
+                )
+            lines.append(f"Residual against generic determinant polynomial: {generic_residual}")
+        else:
+            lines.append("Generic determinant comparison: not requested (--nonzero-only).")
+        lines.append("PASS")
+        print(f"PASS Q{index}(1+ell; gamma) = 4*gamma/(1+gamma**2)", flush=True)
+
+    lines.extend([
+        "", "BOTH EXACT POINT CHECKS PASSED.",
+        "Each determinant polynomial is therefore not identically zero for gamma>0.",
+        "This does not assert nonvanishing at every point, or equality of Q3 and Q4",
+        "as full polynomials. The point values above both vanish at gamma=0.",
+    ])
+    output.mkdir(parents=True, exist_ok=True)
+    (output / "nonzero_jacobian_checks.txt").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
+
+
+def compute(output: Path, *, nonzero_only: bool = False) -> None:
     output.mkdir(parents=True, exist_ok=True)
     tau = sp.symbols("tau")
     w, x, y, z, v = sp.symbols("w x y z v")
     variables = (w, x, y, z, v)
 
     jacobians = build_jacobians(tau, variables)
+    if nonzero_only:
+        verify_nonzero_jacobians(output, tau, variables, jacobians)
+        print(f"Results written to: {output.resolve()}")
+        return
+
     coefficient_field = QQ.frac_field(tau)
     polynomial_ring = coefficient_field.poly_ring(*variables)
 
@@ -167,6 +259,9 @@ def compute(output: Path) -> None:
     if not all(value == 0 for value in assertions.values()):
         raise RuntimeError(f"A determinant symmetry check failed: {assertions}")
 
+    # Exact nonzero values required for the two middle-position maps.
+    verify_nonzero_jacobians(output, tau, variables, jacobians, det_expr)
+
     # Exact gamma=0 (tau=0) factorization over Q.
     rational_ring = QQ.poly_ring(*variables)
     endpoint_lines: list[str] = []
@@ -206,8 +301,13 @@ def main() -> None:
         default=Path(__file__).resolve().parents[2] / "outputs/bracket_maps",
         help="Directory for exact symbolic results.",
     )
+    parser.add_argument(
+        "--nonzero-only",
+        action="store_true",
+        help="Verify Q3 and Q4 at 1+ell without computing full determinant polynomials.",
+    )
     args = parser.parse_args()
-    compute(args.output)
+    compute(args.output, nonzero_only=args.nonzero_only)
 
 
 if __name__ == "__main__":
