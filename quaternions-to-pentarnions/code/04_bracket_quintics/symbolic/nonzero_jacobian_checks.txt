@@ -1,0 +1,45 @@
+Exact nonzero Jacobian checks for the two middle-position maps
+Arithmetic: exact over Q(sqrt(2))(tau); no floating-point sampling.
+
+Code indices (1,2,3,4,5,6) correspond to manuscript maps (M0,M2,M3,M4,M5,M1).
+M3(p) = p*(i*p); M4(p) = (p*i)*p; the parentheses are retained.
+Code Q3 and Q4 therefore equal manuscript Q_3 and Q_4, respectively.
+Basis: (1,i,j,k,L), with L=ell/sqrt(2).
+Point: 1+ell; scaled coordinates (w,x,y,z,v)=(1,0,0,0,sqrt(2)).
+kappa=(1-2*tau**2)/(1+2*tau**2)
+sigma=2*sqrt(2)*tau/(1+2*tau**2)
+gamma=2*sqrt(2)*tau/(1-2*tau**2)
+Expected value in tau: 8*sqrt(2)*tau*(1-2*tau**2)/(1+2*tau**2)**2
+Expected value in gamma: 4*gamma/(1+gamma**2)
+Parameter-identity residual: 0
+For gamma>=0 use 0<=tau<1/sqrt(2); gamma in [0,1] corresponds to
+tau in [0,1-1/sqrt(2)]. The verified value is positive for gamma>0.
+
+Code Q3 / manuscript Q_3:
+Jacobian at 1+ell in the scaled basis (rows):
+[0, -2, (2*sqrt(2)*tau**2 - 4*sqrt(2)*tau + sqrt(2))/(4*tau**2 + 2), (2*sqrt(2)*tau**2 + 4*sqrt(2)*tau + sqrt(2))/(4*tau**2 + 2), 0]
+[2, 0, 0, 0, -sqrt(2)]
+[0, (-2*sqrt(2)*tau**2 + sqrt(2))/(4*tau**2 + 2), (-2*sqrt(2)*tau**2 + sqrt(2))/(4*tau**2 + 2), 0, -sqrt(2)/2]
+[0, (2*sqrt(2)*tau**2 - sqrt(2))/(4*tau**2 + 2), 0, (2*sqrt(2)*tau**2 - sqrt(2))/(4*tau**2 + 2), -sqrt(2)/2]
+[0, -sqrt(2), -2*sqrt(2)*tau/(2*tau**2 + 1), 2*sqrt(2)*tau/(2*tau**2 + 1), 0]
+Determinant: -8*sqrt(2)*tau*(2*tau**2 - 1)/(2*tau**2 + 1)**2
+Residual against expected value: 0
+Residual against generic determinant polynomial: 0
+PASS
+
+Code Q4 / manuscript Q_4:
+Jacobian at 1+ell in the scaled basis (rows):
+[0, -2, (-2*sqrt(2)*tau**2 + 4*sqrt(2)*tau - sqrt(2))/(4*tau**2 + 2), (-2*sqrt(2)*tau**2 - 4*sqrt(2)*tau - sqrt(2))/(4*tau**2 + 2), 0]
+[2, 0, 0, 0, -sqrt(2)]
+[0, (-2*sqrt(2)*tau**2 + sqrt(2))/(4*tau**2 + 2), (-2*sqrt(2)*tau**2 + sqrt(2))/(4*tau**2 + 2), 0, -sqrt(2)/2]
+[0, (2*sqrt(2)*tau**2 - sqrt(2))/(4*tau**2 + 2), 0, (2*sqrt(2)*tau**2 - sqrt(2))/(4*tau**2 + 2), -sqrt(2)/2]
+[0, -sqrt(2), -2*sqrt(2)*tau/(2*tau**2 + 1), 2*sqrt(2)*tau/(2*tau**2 + 1), 0]
+Determinant: -8*sqrt(2)*tau*(2*tau**2 - 1)/(2*tau**2 + 1)**2
+Residual against expected value: 0
+Residual against generic determinant polynomial: 0
+PASS
+
+BOTH EXACT POINT CHECKS PASSED.
+Each determinant polynomial is therefore not identically zero for gamma>0.
+This does not assert nonvanishing at every point, or equality of Q3 and Q4
+as full polynomials. The point values above both vanish at gamma=0.
