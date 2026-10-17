@@ -36,7 +36,7 @@ No external document renderer is required for Python plot labels.
 | `code/04_bracket_quintics/` | Six quadratic maps and their Jacobian determinants |
 | `code/05_spin_dynamics/` | Spin equations, dense trajectory generator and plotting |
 | `code/06_riccati_dynamics/` | Plots of the supplied Riccati/protocol results |
-| `code/06_riccati_dynamics/section9_validation/` | Plots of the additional supplied validation results |
+| `code/06_riccati_dynamics/section9_validation/` | Exact characteristic-polynomial verifier and plots of supplied validation results |
 | `code/07_time_dependent_switching/` | Protocol documentation and a plotting entry point |
 | `data/` | Supplied numerical and exact-symbolic results |
 | `outputs/` | Created locally for generated results; not distributed or tracked |
@@ -45,6 +45,21 @@ The component `04_bracket_quintics` computes the six quadratic maps and their
 Jacobian determinant polynomials.
 
 ## 3. Read-only code and data checks
+
+The GitHub download supplies three large trajectory CSVs as ZIP files. Before
+running `run_audit.py`, `run_full_verification.py` or plotting those records,
+extract each CSV into `data/riccati_dense/`:
+
+```bash
+python -m zipfile -e data/riccati_dense/static_gamma_0p60_timeseries.zip data/riccati_dense
+python -m zipfile -e data/riccati_dense/protocol_I_omega_0p8_dense_timeseries.zip data/riccati_dense
+python -m zipfile -e data/riccati_dense/protocol_II_omega_0p2_dense_timeseries.zip data/riccati_dense
+```
+
+This local extraction is needed only when the CSVs have not already been
+extracted. Keep the supplied ZIPs; there is no need to upload the extracted
+CSVs for the determinant check. The standalone exact-determinant commands
+below do not read these trajectory files.
 
 ```bash
 python run_audit.py
@@ -69,9 +84,10 @@ python run_full_verification.py --full --output outputs/exact_checks
 ```
 
 The default runs the read-only checks, recomputes the associator formulas,
-evaluates selected rotational expressions and verifies the invariant-ideal
-identities. `--full` additionally solves the ordered-product coefficient system
-and computes the six determinant polynomials. `--output` must name a directory
+evaluates selected rotational expressions, verifies the invariant-ideal
+identities and checks the Riccati characteristic-polynomial factorisation.
+`--full` additionally solves the ordered-product coefficient system and computes the six determinant polynomials, including the exact point checks
+for the two middle-position maps described below. `--output` must name a directory
 that does not already exist. `--timeout SECONDS` changes the per-command timeout
 (default 1800 seconds).
 
@@ -84,6 +100,7 @@ python code/02_rotational_geometry/verify_exact_results.py
 python code/03_exact_integrable_path/symbolic_verification.py
 python code/03_exact_integrable_path/verify_ordered_product_representation.py
 python code/04_bracket_quintics/compute_symbolic.py
+python code/06_riccati_dynamics/section9_validation/verify_characteristic_polynomial.py
 ```
 
 The associator generator evaluates its sums exactly; its CSV also repeats the
@@ -95,8 +112,68 @@ the parameter assumptions of that construction.
 
 Reference expressions are supplied in `data/structural/`,
 `data/exact_integrable/`, `code/02_rotational_geometry/verification/`,
-`code/03_exact_integrable_path/ordered_product_maps_flagship.txt`, and
-`code/04_bracket_quintics/symbolic/`.
+`code/03_exact_integrable_path/ordered_product_maps_flagship.txt`,
+`code/04_bracket_quintics/symbolic/`, and
+`code/06_riccati_dynamics/section9_validation/symbolic/`.
+
+### Nonzero Jacobian values at `p = 1 + ell`
+
+The exact determinant generator checks
+
+```text
+Q3(1+ell; gamma) = Q4(1+ell; gamma) = 4*gamma/(1+gamma**2),
+```
+
+for manuscript maps `M3(p)=p*(i*p)` and `M4(p)=(p*i)*p`. This value is positive
+for `gamma > 0`, proving that neither determinant polynomial is identically
+zero. The claim is not that either determinant is nonzero at every point.
+
+To verify only these two point values:
+
+```bash
+python code/04_bracket_quintics/compute_symbolic.py --nonzero-only
+```
+
+The command independently recomputes the determinants of the point-substituted
+Jacobians using exact arithmetic, and exits with an error if either residual
+is nonzero. It does not depend on the numerical trajectory files or on stored
+point values. With the default full command, the result is also compared with
+the freshly computed generic determinant polynomials.
+
+The generator writes `outputs/bracket_maps/nonzero_jacobian_checks.txt`, recording
+the evaluated matrices, parameter convention and exact residuals. A reference
+result from a full run is supplied at
+[`code/04_bracket_quintics/symbolic/nonzero_jacobian_checks.txt`](../code/04_bracket_quintics/symbolic/nonzero_jacobian_checks.txt).
+The [component README](../code/04_bracket_quintics/README.md) explains the scaled
+basis and map numbering. In particular, the actual element `1+ell` must be
+entered as `(1,0,0,0,sqrt(2))` in the generator's basis `L=ell/sqrt(2)`.
+
+### Riccati characteristic-polynomial factorisation
+
+To reproduce only the origin characteristic polynomial, run:
+
+```bash
+python code/06_riccati_dynamics/section9_validation/verify_characteristic_polynomial.py
+```
+
+This command requires only Python 3.10+ and SymPy. No trajectory data need to be
+extracted for it. It constructs left multiplication by the canonical coefficient
+`A_gamma=(-1/2,-2,1/2,-1,-gamma/2)`, checks the general matrix against Appendix A,
+and computes `det(lambda I_5 - L_A_gamma)`. It verifies all six coefficients of
+the quadratic-times-cubic factorisation with the manuscript's `b_gamma` and
+`c_gamma`, using exact arithmetic rather than sampled parameter values.
+
+The calculation eliminates `kappa^2` using `(1+gamma^2)*kappa^2=1` and
+`sigma=gamma*kappa`. A nonzero residual causes the script to fail. The result
+is written to `outputs/riccati_validation/characteristic_polynomial_checks.txt`;
+`--output DIR` selects another directory. A
+[reference report](../code/06_riccati_dynamics/section9_validation/symbolic/characteristic_polynomial_checks.txt)
+and the [component instructions](../code/06_riccati_dynamics/section9_validation/README.md#exact-characteristic-polynomial-verification)
+are supplied. The report is not an input to the verification.
+
+Both the default and `--full` verification workflows run this script in the
+isolated source copy. It verifies `eq:riccati-characteristic` and `eq:riccati-bc`,
+not the numerical Hopf coefficient, periodic branches or Lyapunov exponents.
 
 ## 5. Elliptic-solution numerical illustration
 
@@ -167,9 +244,10 @@ The static gamma=0.6 and gamma=0.7 records contain 200,001 and 60,001 samples,
 respectively, at interval 0.01. The adjacent metadata files specify their time
 windows and section-crossing counts.
 
-**Source availability:** continuation and validation results are supplied,
-but several generating programs are not included. In particular, this
-repository does not include the complete static/frequency-scan drivers,
+**Source availability:** the exact characteristic-polynomial verifier described
+above is included and can be rerun. Numerical continuation and validation
+results are supplied, but several numerical generating programs are not included.
+In particular, this repository does not include the complete static/frequency-scan drivers,
 periodic-branch continuation drivers, or the additional validation drivers
 `run_checks.py`, `verify_section9.py`, `targeted_spectrum.cpp`,
 `sample_archived_forcing_phase.py` and `localise_archived_events.py`.
