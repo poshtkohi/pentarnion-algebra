@@ -1,0 +1,10 @@
+Exact determinant symmetries for A=i:
+
+Q6(p) = -Q1(p)
+Q5(p) = -Q2(conj(p))
+Q4(p) = -Q3(conj(p))
+
+where conj(w,x,y,z,v)=(w,-x,-y,-z,-v).
+
+Therefore the six critical zero sets form three conjugacy classes:
+{Q1,Q6}, {Q2,Q5}, {Q3,Q4}.

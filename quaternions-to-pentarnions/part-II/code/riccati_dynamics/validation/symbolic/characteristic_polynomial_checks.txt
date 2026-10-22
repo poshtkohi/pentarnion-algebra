@@ -1,0 +1,47 @@
+Riccati characteristic-polynomial verification
+Result: PASS
+Environment: Python 3.13.5; SymPy 1.14.0
+Basis: (1,i,j,k,ell); all coefficients are actual canonical coefficients.
+A_gamma = (-1/2,-2,1/2,-1,-gamma/2).
+Arithmetic: exact over Q(sqrt(2))(gamma), with polynomial reduction in kappa.
+Relations: sigma=gamma*kappa; (1+gamma^2)*kappa^2=1.
+Intended branch: kappa=1/sqrt(1+gamma^2); gamma in [0,1].
+The resulting identity in fact holds for every real gamma.
+No sampled gamma values, floating-point approximations or stored results are used.
+
+General L_p constructed from the multiplication table equals Appendix A:
+25 of 25 entry residuals are exactly zero.
+
+Computed L_A_gamma (rows; sigma already replaced by gamma*kappa):
+[-1/2, 2, -1/2, 1, gamma/2]
+[-2, -1/2, -sqrt(2)*gamma/4 + kappa, -sqrt(2)*gamma/4 + kappa/2, sqrt(2)/4]
+[1/2, -sqrt(2)*gamma/4 - kappa, -1/2, -sqrt(2)*gamma/4 + 2*kappa, 3*sqrt(2)/2]
+[-1, -sqrt(2)*gamma/4 - kappa/2, -sqrt(2)*gamma/4 - 2*kappa, -1/2, 3*sqrt(2)/4]
+[-gamma/2, -3*gamma*kappa/2, -gamma*kappa, 5*gamma*kappa/2, -1/2]
+
+Manuscript factors:
+b_gamma = (-3*gamma**4 + 3*gamma**2 + 48)/(8*gamma**2 + 8)
+c_gamma = (-3*gamma**4 - gamma**2 + sqrt(2)*gamma*(gamma**4 + gamma**2 + 194) + 44)/(16*gamma**2 + 16)
+Quadratic = gamma**2/4 + lambda**2 + lambda + 11/2
+Cubic = lambda**3 + 3*lambda**2/2 + lambda*(-3*gamma**4 + 3*gamma**2 + 48)/(8*gamma**2 + 8) + (-3*gamma**4 - gamma**2 + sqrt(2)*gamma*(gamma**4 + gamma**2 + 194) + 44)/(16*gamma**2 + 16)
+
+Computed characteristic-polynomial coefficients, after exact reduction:
+lambda^5: 1
+lambda^4: 5/2
+lambda^3: -(gamma**4 - 61*gamma**2 - 104)/(8*(gamma**2 + 1))
+lambda^2: (sqrt(2)*gamma**5 - 3*gamma**4 + sqrt(2)*gamma**3 + 143*gamma**2 + 194*sqrt(2)*gamma + 272)/(16*(gamma**2 + 1))
+lambda^1: -(3*gamma**6 - 2*sqrt(2)*gamma**5 + 69*gamma**4 - 2*sqrt(2)*gamma**3 - 112*gamma**2 - 388*sqrt(2)*gamma - 1144)/(32*(gamma**2 + 1))
+lambda^0: (gamma**2 + 22)*(sqrt(2)*gamma**5 - 3*gamma**4 + sqrt(2)*gamma**3 - gamma**2 + 194*sqrt(2)*gamma + 44)/(64*(gamma**2 + 1))
+
+Coefficient residuals: computed - (Quadratic * Cubic)
+lambda^5: 0
+lambda^4: 0
+lambda^3: 0
+lambda^2: 0
+lambda^1: 0
+lambda^0: 0
+
+PASS det(lambda I_5 - L_A_gamma) = Quadratic * Cubic identically.
+Scope: verifies eq:riccati-characteristic and eq:riccati-bc from the stated
+multiplication table and A_gamma. No nonlinear Hopf coefficient, orbit,
+Lyapunov exponent, period-doubling branch or numerical simulation is verified.

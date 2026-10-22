@@ -1,0 +1,17 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cpp text eol=lf
+*.m text eol=lf
+*.zip binary
+# Preserve the exact bytes of the supplied reference results on Windows too.
+quaternions-to-pentarnions/part-I/data/** -text
+quaternions-to-pentarnions/part-II/data/** -text
+quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/** -text
+quaternions-to-pentarnions/part-I/code/rotational_geometry/verification/** -text
+quaternions-to-pentarnions/part-II/code/riccati_dynamics/validation/symbolic/** -text
+quaternions-to-pentarnions/part-II/code/exact_solutions/ordered_product_maps_flagship.txt -text
+LICENSE -text

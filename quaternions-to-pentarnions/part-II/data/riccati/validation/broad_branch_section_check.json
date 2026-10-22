@@ -1,0 +1,15 @@
+{
+  "gamma": 0.7,
+  "period": 6.260606996311446,
+  "upward_p1_zero_crossings_per_cycle": 3,
+  "p3_local_maxima_per_cycle": 2,
+  "upward_crossing_times": [
+    0.5547336279983818,
+    1.7252093460642826,
+    4.175177386246826
+  ],
+  "peak_times": [
+    1.114828009057505,
+    3.0025321977387853
+  ]
+}

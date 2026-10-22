@@ -1,0 +1,799 @@
+[
+  {
+    "part": "I",
+    "figure_file": "associator_norms.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/structural_invariants/generate_algebraic_invariants.py"
+    ],
+    "input_kind": "exact_formula",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:structural-invariants"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "tensor_rotation_deformation_norms.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:structural-invariants"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "raw_sandwich_norm_defect.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 2,
+    "latex_labels": [
+      "fig:rotation-obstruction-and-shadow"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "tilted_rotation_circles_on_sphere.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 2,
+    "latex_labels": [
+      "fig:rotation-obstruction-and-shadow"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "tilted_rotation_plane_disks.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 2,
+    "latex_labels": [
+      "fig:rotation-obstruction-and-shadow"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "switching_holonomy_loop.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 3,
+    "latex_labels": [
+      "fig:holonomy-panel"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "switching_holonomy_phase.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 3,
+    "latex_labels": [
+      "fig:holonomy-panel"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "double_rotation_torus_projection.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 3,
+    "latex_labels": [
+      "fig:holonomy-panel"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "gamma_bracketing_ellipse_3d.png",
+    "renderer_status": "equation_based_reconstruction",
+    "scripts": [
+      "part-I/code/bracket_geometry/generate_figures.py"
+    ],
+    "input_kind": "manuscript_formulas",
+    "note": "Equation-based reconstruction; identities and determinant residuals checked.",
+    "source_figure_group": 4,
+    "latex_labels": [
+      "fig:bracket-low-dimensional"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "six_bracketings_gamma1_circle.png",
+    "renderer_status": "equation_based_reconstruction",
+    "scripts": [
+      "part-I/code/bracket_geometry/generate_figures.py"
+    ],
+    "input_kind": "manuscript_formulas",
+    "note": "Equation-based reconstruction; identities and determinant residuals checked.",
+    "source_figure_group": 4,
+    "latex_labels": [
+      "fig:bracket-low-dimensional"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "gamma1_left_right_determinant_geometry.png",
+    "renderer_status": "equation_based_reconstruction",
+    "scripts": [
+      "part-I/code/bracket_geometry/generate_figures.py"
+    ],
+    "input_kind": "manuscript_formulas",
+    "note": "Equation-based reconstruction; identities and determinant residuals checked.",
+    "source_figure_group": 4,
+    "latex_labels": [
+      "fig:bracket-low-dimensional"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "multiplication_induced_anisotropy.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/rotational_geometry/build_assets.py"
+    ],
+    "input_kind": "formula_or_reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 5,
+    "latex_labels": [
+      "fig:spin-anisotropy"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_lyapunov_frequency_scan.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Reference table by default; independent tangent-space recomputation via run_numerics.py --task spin-scan.",
+    "source_figure_group": 6,
+    "latex_labels": [
+      "fig:spin-frequency-scan",
+      "fig:spin-regular-trajectory"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_regular_trajectory_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 6,
+    "latex_labels": [
+      "fig:spin-frequency-scan",
+      "fig:spin-regular-trajectory"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_regular_poincare_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 7,
+    "latex_labels": [
+      "fig:spin-regular-poincare",
+      "fig:spin-regular-timeseries"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_regular_timeseries_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 7,
+    "latex_labels": [
+      "fig:spin-regular-poincare",
+      "fig:spin-regular-timeseries"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_chaotic_trajectory_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 8,
+    "latex_labels": [
+      "fig:spin-chaotic-trajectory",
+      "fig:spin-chaotic-poincare"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_chaotic_poincare_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 8,
+    "latex_labels": [
+      "fig:spin-chaotic-trajectory",
+      "fig:spin-chaotic-poincare"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_chaotic_timeseries_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 9,
+    "latex_labels": [
+      "fig:spin-chaotic-timeseries",
+      "fig:spin-fixed-frame"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_chaotic_fixed_frame_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 9,
+    "latex_labels": [
+      "fig:spin-chaotic-timeseries",
+      "fig:spin-fixed-frame"
+    ]
+  },
+  {
+    "part": "I",
+    "figure_file": "spin_energy_balance_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-I/code/spin_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 10,
+    "latex_labels": [
+      "fig:spin-work-audit"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "trajectory_family_3d.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/exact_solutions/generate_figures_and_data.py"
+    ],
+    "input_kind": "explicit_Jacobi_formula_and_small_numerical_illustration",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:exact-integrable-panel"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "invariant_curves_wx.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/exact_solutions/generate_figures_and_data.py"
+    ],
+    "input_kind": "explicit_Jacobi_formula_and_small_numerical_illustration",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:exact-integrable-panel"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "period_vs_gamma.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/exact_solutions/generate_figures_and_data.py"
+    ],
+    "input_kind": "explicit_Jacobi_formula_and_small_numerical_illustration",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:exact-integrable-panel"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "affine_span_audit.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/exact_solutions/generate_figures_and_data.py"
+    ],
+    "input_kind": "explicit_Jacobi_formula_and_small_numerical_illustration",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 1,
+    "latex_labels": [
+      "fig:exact-integrable-panel"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_event_timeline.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 2,
+    "latex_labels": [
+      "fig:riccati-event-timeline",
+      "fig:riccati-lle"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_largest_lyapunov.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 2,
+    "latex_labels": [
+      "fig:riccati-event-timeline",
+      "fig:riccati-lle"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_bifurcation_diagram.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 3,
+    "latex_labels": [
+      "fig:riccati-bifurcation",
+      "fig:peak"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_primary_branch_periods.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 4,
+    "latex_labels": [
+      "fig:primary-periods",
+      "fig:primary-flips"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_primary_floquet_flip_sequence.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 4,
+    "latex_labels": [
+      "fig:primary-periods",
+      "fig:primary-flips"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_primary_cascade_zoom.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/validation/make_validation_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 5,
+    "latex_labels": [
+      "fig:primary-cascade-zoom"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_primary_cascade_scaling.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 6,
+    "latex_labels": [
+      "fig:cascade-scaling",
+      "fig:primary-orbits"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_primary_orbit_growth.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 6,
+    "latex_labels": [
+      "fig:cascade-scaling",
+      "fig:primary-orbits"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_broad_P2_stability.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 7,
+    "latex_labels": [
+      "fig:broad-p2",
+      "fig:window-cascade"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_regular_window_cascade.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 7,
+    "latex_labels": [
+      "fig:broad-p2",
+      "fig:window-cascade"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_narrow_window_stability.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 8,
+    "latex_labels": [
+      "fig:narrow-window",
+      "fig:branch-atlas"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_periodic_branch_atlas.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 8,
+    "latex_labels": [
+      "fig:narrow-window",
+      "fig:branch-atlas"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_chaotic_trajectory_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 9,
+    "latex_labels": [
+      "fig:riccati-chaotic-trajectory",
+      "fig:riccati-chaotic-poincare",
+      "fig:riccati-chaotic-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_chaotic_poincare_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 9,
+    "latex_labels": [
+      "fig:riccati-chaotic-trajectory",
+      "fig:riccati-chaotic-poincare",
+      "fig:riccati-chaotic-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_chaotic_timeseries_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 9,
+    "latex_labels": [
+      "fig:riccati-chaotic-trajectory",
+      "fig:riccati-chaotic-poincare",
+      "fig:riccati-chaotic-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_regular_trajectory_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 10,
+    "latex_labels": [
+      "fig:riccati-regular-trajectory",
+      "fig:riccati-regular-poincare",
+      "fig:riccati-regular-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_regular_poincare_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 10,
+    "latex_labels": [
+      "fig:riccati-regular-trajectory",
+      "fig:riccati-regular-poincare",
+      "fig:riccati-regular-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "riccati_static_regular_timeseries_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 10,
+    "latex_labels": [
+      "fig:riccati-regular-trajectory",
+      "fig:riccati-regular-poincare",
+      "fig:riccati-regular-timeseries"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "both_protocols_frequency_scan.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 11,
+    "latex_labels": [
+      "fig:both-protocol-scans"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_band_omega_0p2_timeseries.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 12,
+    "latex_labels": [
+      "fig:protocol-I-02",
+      "fig:protocol-I-08"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_band_omega_0p8_timeseries.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 12,
+    "latex_labels": [
+      "fig:protocol-I-02",
+      "fig:protocol-I-08"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_transition_band_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 13,
+    "latex_labels": [
+      "fig:protocol-I-dense-trajectory",
+      "fig:protocol-I-stroboscopic"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_I_stroboscopic.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/validation/make_validation_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 13,
+    "latex_labels": [
+      "fig:protocol-I-dense-trajectory",
+      "fig:protocol-I-stroboscopic"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_full_omega_0p2_timeseries.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 14,
+    "latex_labels": [
+      "fig:protocol-II-02",
+      "fig:protocol-II-08"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_full_omega_0p8_timeseries.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 14,
+    "latex_labels": [
+      "fig:protocol-II-02",
+      "fig:protocol-II-08"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_near_full_dense.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/make_dense_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 15,
+    "latex_labels": [
+      "fig:protocol-II-dense-trajectory",
+      "fig:protocol-II-stroboscopic"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_II_stroboscopic.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/validation/make_validation_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 15,
+    "latex_labels": [
+      "fig:protocol-II-dense-trajectory",
+      "fig:protocol-II-stroboscopic"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_II_omega2_periodic_response.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/validation/make_validation_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 16,
+    "latex_labels": [
+      "fig:protocol-II-periodic-response",
+      "fig:protocol-II-return-residual"
+    ]
+  },
+  {
+    "part": "II",
+    "figure_file": "protocol_II_omega2_return_residual.png",
+    "renderer_status": "supplied",
+    "scripts": [
+      "part-II/code/riccati_dynamics/validation/make_validation_figures.py"
+    ],
+    "input_kind": "reference_data",
+    "note": "Rendering may differ from submitted artwork; no manuscript figures are distributed.",
+    "source_figure_group": 16,
+    "latex_labels": [
+      "fig:protocol-II-periodic-response",
+      "fig:protocol-II-return-residual"
+    ]
+  }
+]

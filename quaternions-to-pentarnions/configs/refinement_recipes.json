@@ -1,0 +1,214 @@
+{
+  "method": "Natural-parameter shooting using recorded numerical seeds, specified grids, and explicit RK4 steps. Integration steps are the declared reconstruction settings; reference inputs are never overwritten.",
+  "recipes": [
+    {
+      "name": "refine_P32_cont1",
+      "gamma_start": 0.49316115,
+      "gamma_end": 0.493165,
+      "gamma_step": 4.999999997368221e-08,
+      "integration_step": 0.0015,
+      "seed_gamma": 0.49316115,
+      "seed_period": 103.8526937922071,
+      "seed_state": [
+        -0.0243761410305771,
+        -0.1213043786391334,
+        -0.2629186736037107,
+        0.4223717101235551,
+        0.2099982198035782
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_P32_cont1.csv",
+      "reference_sha256": "12a5b622e1fc6aea117f81ac0c3df0a7bb7a4b46d1ddb6ef1c2e707eaef183a6",
+      "reference_rows": 78
+    },
+    {
+      "name": "refine_P32_cont2",
+      "gamma_start": 0.493165,
+      "gamma_end": 0.49319,
+      "gamma_step": 2.0000000000575113e-07,
+      "integration_step": 0.0015,
+      "seed_gamma": 0.493165,
+      "seed_period": 103.8529678153202,
+      "seed_state": [
+        -0.0244270626237809,
+        -0.1213177360599014,
+        -0.2629362816704752,
+        0.4223858581132524,
+        0.2100122745296371
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_P32_cont2.csv",
+      "reference_sha256": "440bba7738fdb423e5ef36c61a6b06ea41d0e21cf64129502baad91f7bff44c5",
+      "reference_rows": 126
+    },
+    {
+      "name": "refine_P32_cont3",
+      "gamma_start": 0.49319,
+      "gamma_end": 0.4932,
+      "gamma_step": 1.0000000000287557e-07,
+      "integration_step": 0.0015,
+      "seed_gamma": 0.49319,
+      "seed_period": 103.8547466954957,
+      "seed_state": [
+        -0.0245196479982099,
+        -0.1213385108376183,
+        -0.2629837151448235,
+        0.4224217358791978,
+        0.21004697025336
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_P32_cont3.csv",
+      "reference_sha256": "cc2a239fdb3b0b101dce3d9d4a539427cc02b3866f656392b7a66c10d992ac5f",
+      "reference_rows": 101
+    },
+    {
+      "name": "refine_P32_plus1",
+      "gamma_start": 0.49316075,
+      "gamma_end": 0.49316115,
+      "gamma_step": 2.500000001459668e-08,
+      "integration_step": 0.0015,
+      "seed_gamma": 0.49316075,
+      "seed_period": 103.8526653210433,
+      "seed_state": [
+        -0.0243572822949632,
+        -0.1212992234254657,
+        -0.2629130052464797,
+        0.4223670255606395,
+        0.20999352427375
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_P32_plus1.csv",
+      "reference_sha256": "aae4a9de77dc97a0fb3df3cd69144365723ffe16cbeae9889c46c15074aa7820",
+      "reference_rows": 17
+    },
+    {
+      "name": "refine_PD1",
+      "gamma_start": 0.472,
+      "gamma_end": 0.473,
+      "gamma_step": 2.0000000000020002e-05,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.472,
+      "seed_period": 3.206105304977858,
+      "seed_state": [
+        -0.0338281056563135,
+        -0.1132522148440421,
+        -0.1728360822653298,
+        0.4332867010374578,
+        0.2339939801384152
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_PD1.csv",
+      "reference_sha256": "6b9633084835fdee64477b94a7bfa9d6f2eb2ba1b3ffa59ca326897eae7a63c3",
+      "reference_rows": 51
+    },
+    {
+      "name": "refine_broad_lower",
+      "gamma_start": 0.488,
+      "gamma_end": 0.48726,
+      "gamma_step": 2.0000000000020002e-05,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.488,
+      "seed_period": 7.027854108224308,
+      "seed_state": [
+        -0.0737922223871695,
+        -0.2553853541178061,
+        -0.2001145497773941,
+        0.599708583092874,
+        0.3751609769054856
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_broad_lower.csv",
+      "reference_sha256": "532aeec208ccb70eef4d2b9b74cb6cee01cba31238c66f5d22b7560bb1bfa9fe",
+      "reference_rows": 38
+    },
+    {
+      "name": "refine_broad_reversePD",
+      "gamma_start": 0.6685,
+      "gamma_end": 0.6699999999999999,
+      "gamma_step": 2.0000000000020002e-05,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.6685,
+      "seed_period": 6.38169952127909,
+      "seed_state": [
+        0.181254674784976,
+        -0.2129611987440885,
+        -0.1384469762483322,
+        0.5023505218932119,
+        0.4635675973429423
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_broad_reversePD.csv",
+      "reference_sha256": "2db9c36ff11d4795049ed3c190081fc20881b96e54b7649216e1ac10f520ec00",
+      "reference_rows": 76
+    },
+    {
+      "name": "refine_broad_upper",
+      "gamma_start": 0.729,
+      "gamma_end": 0.72954,
+      "gamma_step": 2.0000000000020002e-05,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.729,
+      "seed_period": 6.018256444315132,
+      "seed_state": [
+        0.1829783037578459,
+        -0.1961011331412984,
+        -0.2741183673891164,
+        0.5697301159948787,
+        0.5212626789197069
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_broad_upper.csv",
+      "reference_sha256": "7e308fa10f4821cc1257f86b2a7f043f20cd413bd275a2175083208d301298e1",
+      "reference_rows": 28
+    },
+    {
+      "name": "refine_narrow_PD",
+      "gamma_start": 0.8554,
+      "gamma_end": 0.8558,
+      "gamma_step": 5.000000000032756e-06,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.8554,
+      "seed_period": 12.87871160027279,
+      "seed_state": [
+        0.0523524257434434,
+        0.1975590711118149,
+        -0.0904368101991519,
+        -0.1921154648378637,
+        -0.1090480700761696
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_narrow_PD.csv",
+      "reference_sha256": "9d86c245b5b94fcfa65666251db8d50ec9756f088f566d09c8b20cb357396348",
+      "reference_rows": 81
+    },
+    {
+      "name": "refine_narrow_lower",
+      "gamma_start": 0.8532,
+      "gamma_end": 0.8531599999999999,
+      "gamma_step": 5.000000000032756e-06,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.8532,
+      "seed_period": 12.88168798491322,
+      "seed_state": [
+        0.0612509417780812,
+        0.1996080820410754,
+        -0.089811615405879,
+        -0.1939963608864458,
+        -0.1092140559675932
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_narrow_lower.csv",
+      "reference_sha256": "513404866f607141fd4c413f9bf4f5360ebba51cbc54328295902f5e204455fd",
+      "reference_rows": 9
+    },
+    {
+      "name": "refine_window_C1_lower",
+      "gamma_start": 0.7274,
+      "gamma_end": 0.72733,
+      "gamma_step": 5.000000000032756e-06,
+      "integration_step": 0.0005,
+      "seed_gamma": 0.7274,
+      "seed_period": 5.797947869042872,
+      "seed_state": [
+        0.2753160287149986,
+        0.1550608444374522,
+        -0.195372979626792,
+        0.2708739778263914,
+        0.1850502522445635
+      ],
+      "source_reference": "part-II/data/riccati/periodic_branches/refine_window_C1_lower.csv",
+      "reference_sha256": "29da1854d6dee07534af9a05c4e08f8ef0d928600aabceb9f29c126c9bb7315b",
+      "reference_rows": 15
+    }
+  ]
+}

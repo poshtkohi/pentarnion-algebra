@@ -1,0 +1,9 @@
+protocol=I
+center=0.68000000000000005
+amplitude=0.080000000000000002
+omega=0.80000000000000004
+integration_dt=0.0050000000000000001
+output_dt=0.01
+transient=700
+retained_duration=500
+trajectory_rows=50001

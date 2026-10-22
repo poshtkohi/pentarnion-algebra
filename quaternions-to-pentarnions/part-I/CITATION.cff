@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript(s), this software and the exact commit or release used."
+title: "From Quaternions to Pentarnions I: Algebra, geometry, and a spin model — computational companion"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Poshtkohi"
+    given-names: "Alireza"
+  - family-names: "Pumplün"
+    given-names: "Susanne"
+repository-code: "https://github.com/poshtkohi/pentarnion-algebra"
+keywords:
+  - "Nonassociative algebras"
+  - "Quadratic algebras"
+  - "Pentarnion algebras"
+  - "Automorphism groups"
+  - "Rotational geometry"
+  - "Zero divisors"
+  - "Classical spin"
+  - "Hamiltonian systems"

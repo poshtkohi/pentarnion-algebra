@@ -1,0 +1,26 @@
+[
+  {
+    "protocol": "I",
+    "omega": 0.8,
+    "samples": 147,
+    "forcing_phase": 0,
+    "first_time": 1201.6591899980958,
+    "last_time": 2348.3405085583704,
+    "source": "data/riccati_dense/protocol_I_omega_0p8_dense_timeseries.csv",
+    "max_local_alignment_interval": 0.00494931904859186,
+    "method": "DOP853 local integration from preceding archived p-state; rtol=1e-11 atol=1e-13",
+    "limitation": "Derived finite-record diagnostic, not an independent long-time integration."
+  },
+  {
+    "protocol": "II",
+    "omega": 0.2,
+    "samples": 36,
+    "forcing_phase": 0,
+    "first_time": 1225.2211349000193,
+    "last_time": 2324.7785636564467,
+    "source": "data/riccati_dense/protocol_II_omega_0p2_dense_timeseries.csv",
+    "max_local_alignment_interval": 0.004857488063862547,
+    "method": "DOP853 local integration from preceding archived p-state; rtol=1e-11 atol=1e-13",
+    "limitation": "Derived finite-record diagnostic, not an independent long-time integration."
+  }
+]

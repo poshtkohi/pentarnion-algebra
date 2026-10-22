@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript(s), this software and the exact commit or release used."
+title: "Pentarnion Algebra: computational companions to From Quaternions to Pentarnions I and II"
+type: software
+version: "1.1.0"
+authors:
+  - family-names: "Poshtkohi"
+    given-names: "Alireza"
+  - family-names: "Pumplün"
+    given-names: "Susanne"
+repository-code: "https://github.com/poshtkohi/pentarnion-algebra"
+keywords:
+  - "Pentarnion algebras"
+  - "Nonassociative algebras"
+  - "Quadratic algebras"
+  - "Algebra-valued differential equations"

@@ -1,0 +1,10 @@
+Exact check: Part II, prop:hyperbolic-invariant-plane
+Coordinates: (p0,p1,p2,p3,p4)=(scalar,i,j,k,ell); m=mu*gamma.
+PASS invariant plane and reduced equations (symbolic).
+PASS squared reduced matrix equals lambda^2 I.
+PASS hyperbolic solution and initial data (symbolic).
+PASS gamma=0 linear-in-time formula (symbolic).
+PASS mu=1/2, gamma=1 example in all five equations.
+No numerical sampling or interval certification is used.
+Scope: these are solutions on the specified invariant affine plane.
+The calculation does not classify other initial conditions.

@@ -1,0 +1,73 @@
+{
+  "static_scan": {
+    "points": 201,
+    "gamma": [
+      0,
+      1
+    ],
+    "dt": 0.01,
+    "transient": 300,
+    "accumulation": 500,
+    "rescaling_interval": 0.1,
+    "initial_distance": 1e-08
+  },
+  "periodic_scans": {
+    "omegas": [
+      0.01,
+      0.02,
+      0.03,
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.2,
+      0.3,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "dt": 0.005,
+    "transient": 400,
+    "accumulation": 800,
+    "coordinate_system": "reference q, with -gamma_dot/gamma correction",
+    "rescaling_interval": 0.1,
+    "initial_distance": 1e-08
+  },
+  "peak_scan": {
+    "gamma_start": 0.35,
+    "gamma_step": 0.001,
+    "points": 551,
+    "dt": 0.01,
+    "transient": 1000,
+    "accumulation": 500,
+    "last_maxima": 150
+  },
+  "spin_scan": {
+    "implementation": "independent reconstruction from the spin field and its analytic Jacobian",
+    "omegas": [
+      0.1,
+      0.3,
+      0.55,
+      0.6,
+      0.7,
+      0.8,
+      1.0,
+      1.2,
+      1.35,
+      1.5,
+      1.65,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "transient_periods": 500,
+    "accumulation_periods": 3000,
+    "maximum_step": 0.01,
+    "QR_steps": 10,
+    "projection": "state normalization and its tangent derivative; two reorthogonalized tangent vectors",
+    "interpretation": "Recomputations at declared settings; reference table values are kept separately."
+  }
+}

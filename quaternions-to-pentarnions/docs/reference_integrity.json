@@ -1,0 +1,690 @@
+{
+  "description": "SHA-256 checksums of the reference data and symbolic results. Paths are relative to the repository root.",
+  "files": [
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/structural/algebraic_invariants.csv",
+      "bytes": 618,
+      "sha256": "8f8ac63f565b47b34f3b392ea07541bf2e5fafed6a963ffbd4b62ac0cfa1740a"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/structural/full_associator_tensor_adapted_basis.csv",
+      "bytes": 2282,
+      "sha256": "2ffa9684201341bae586ef10e4ffde17dccdad6b7e47c802c403072813a929f9"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/rotational_geometry/verification/symbolic_verification.txt",
+      "bytes": 1118,
+      "sha256": "fb1fc200b144dce65020bb44782c949f030857f4a3193fb1ff8498766b709031"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/code/exact_solutions/ordered_product_maps_flagship.txt",
+      "bytes": 33293,
+      "sha256": "c2a03898a2249bf3ddad82d17815f17bdb2126129cd591a6cfb5d447631b3d81"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/symbolic_certificate.txt",
+      "bytes": 641,
+      "sha256": "122445dee989e00f86c9719ee990b4c1805837efe2fdc839a96538f03c9ce400"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q1_generic_tau.txt",
+      "bytes": 119,
+      "sha256": "44687c7950bc9e43e6540cc9100190b958f8a198cf09b7c6c07e7c540d43dfc6"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q2_generic_tau.txt",
+      "bytes": 40219,
+      "sha256": "606a13723ee96b122f5107bcfd7254d4d3026124a85cc45c10244fa9cb0ab412"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q3_generic_tau.txt",
+      "bytes": 29605,
+      "sha256": "72d7a92c3f397c2fed7a899bae524f46363825ff00c941afbdc9dc7330d2fe5e"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q4_generic_tau.txt",
+      "bytes": 29607,
+      "sha256": "23a6666db238d490cafe43cfba3bf07eb516c1bfc44c8935ecd3a215a8c65bc5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q5_generic_tau.txt",
+      "bytes": 40195,
+      "sha256": "3818a08b84e8d6dc6b1a2d80024f8979b0b54ddecae7e19cb0c21b850a31a564"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/Q6_generic_tau.txt",
+      "bytes": 118,
+      "sha256": "64f5a838942832c835e5c37bf370a87fd93a02c62f0796ac126464ebbc82d625"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/gamma0_factorizations.txt",
+      "bytes": 867,
+      "sha256": "68369b71b8e2251e00ecd36fff7e8fd4cea1d65e5a5ba9a36dec2f9d3608d25b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/nonzero_jacobian_checks.txt",
+      "bytes": 2432,
+      "sha256": "8bc531e73049c5887a39c24f7da9796ece39185cab0374e5b4fcb0640d306fd5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/code/bracket_geometry/symbolic/symmetry_relations.txt",
+      "bytes": 231,
+      "sha256": "e31cbbe922b0f18b8a2ef6fda8fe2101120c4b7316864ab74c686a369b7e7865"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/code/riccati_dynamics/validation/symbolic/characteristic_polynomial_checks.txt",
+      "bytes": 2455,
+      "sha256": "227d8a67b918d1a2c6446395f8d6d4e04f3b02aa8b94feefdea05f47f26b6038"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/affine_span_audit.csv",
+      "bytes": 13906,
+      "sha256": "15da47a78df04a70f6b6a9b2895109058f3193ed68b9fd3cca55d0b8f7d20bba"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/exact_solution_verification.csv",
+      "bytes": 359,
+      "sha256": "6651c81e9044fc29227eb7c91862c4cb944c3698b59441525923922d7f109822"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/exact_trajectory_family.csv",
+      "bytes": 1170315,
+      "sha256": "1ddb4999764c4527623ca74284dbb0e564217ab3b7c212c0938f44a068ed7aa5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/generation_summary.txt",
+      "bytes": 445,
+      "sha256": "c5c88a79312401df7f645f7b763d7641f550172b6a3638b4d851182dbc0198a6"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/numerical_vs_exact_error.csv",
+      "bytes": 102314,
+      "sha256": "2dc4ead0551a024cbe5572230c6adfa89e8986fd941575d680441f1fe77e2a74"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/exact_integrable/period_vs_gamma.csv",
+      "bytes": 14929,
+      "sha256": "5e06b3b92774cd4734db6808eee1b22edc48471d1c555f5177da28db1eece930"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/full_lyapunov_spectra.csv",
+      "bytes": 1047,
+      "sha256": "96292e6db1440a71f4de8a0a021fab2355d5ee82d000c927da011572b5dbc6dc"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branch_catalog.csv",
+      "bytes": 1166,
+      "sha256": "500784c5dc4e8f466511e966ff80c8699d34cc41a91cc43d2d0a0315888f5f98"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/Broad_P2_floquet.csv",
+      "bytes": 334635,
+      "sha256": "007342ad9d3b3db3df2f6a1a2af4334878f2e2bca0b2736dea1edfcef5d4fe60"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/Narrow_P4_floquet.csv",
+      "bytes": 100846,
+      "sha256": "584ad3df36a6757f10736268294f11abc15e5727274fb8d4f5888fd3884464db"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P16_floquet.csv",
+      "bytes": 41672,
+      "sha256": "87a1f0b1a522c0dba85254d55da0a5ce5f0ecae1f50fa3f99443eb8250001184"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P1_floquet.csv",
+      "bytes": 163322,
+      "sha256": "6c397b4035c0ba24ff504a23cb5c3100fba369b08732e0c26dd4635842f33767"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P2_floquet.csv",
+      "bytes": 145243,
+      "sha256": "277821836277f2b04f5bd13ff724c8e13226e95702d9001bbdb707968978678f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P32_floquet.csv",
+      "bytes": 283309,
+      "sha256": "fd08211592ac5b3aa26d525e8f75ac33d7662e4f27d5f4ea44e2e561f20eaa69"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P4_floquet.csv",
+      "bytes": 73679,
+      "sha256": "7bc2890460911ce9aeb306eebbae799d05c968e870452fdc9e41a074e61bd4ee"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/P8_floquet.csv",
+      "bytes": 41500,
+      "sha256": "491d24164327f36c254fc86461f111193ea7f21bf6f8dc4edbf0a5736e88909f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/Window_C1_floquet.csv",
+      "bytes": 245199,
+      "sha256": "185f71912386932cfb450ef43e840c361aa286a2d635765a79f023edae8236b5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/Window_C2_floquet.csv",
+      "bytes": 130988,
+      "sha256": "697da94e3619eaaadb5536198b1a66a9bf197fa37a717f63b52e96b092aca54e"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/Window_C4_floquet.csv",
+      "bytes": 47402,
+      "sha256": "129c0985ee467a9c3834f09e51411d7200e0ed38b27b0fd6b289e44014b273cd"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/branch_summary.json",
+      "bytes": 895,
+      "sha256": "cf8a65e2eb7c4b726ebc8e7d6d03a16a85aa9fe1816242fc989326423722d415"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/broad_down.csv",
+      "bytes": 134373,
+      "sha256": "bcc433a742dd638aa53b6f17d8cebeac6636431da847121334f3996f2e31c625"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/broad_up.csv",
+      "bytes": 18965,
+      "sha256": "c0f8f1fdb4b66cb20e4fefc54d02676dc2a8de3774a9ff529f441cd47ce30732"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P16_down.csv",
+      "bytes": 7206,
+      "sha256": "9b1cb54bd2ac54b3e842c130b48fde266f1d1d241ff319ebc2a206e0ce20a642"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P16_up.csv",
+      "bytes": 23820,
+      "sha256": "4dba9b60df5c5ed5d97d722aa6ccb92d2c046820986778d76aca668d3d7e3d7b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P2_down.csv",
+      "bytes": 47217,
+      "sha256": "029b6b9fd76b41629867053ab98313b8144b77779c858d3dede0f42d7c9a1f35"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P2_up.csv",
+      "bytes": 56124,
+      "sha256": "89752af654ccef2261dfcb14da315a4e7194a55b7dcab09c4080d40317eb98e7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P32_down.csv",
+      "bytes": 7772,
+      "sha256": "57a42600d8359d0d9bd59a42ed5b9fbc8ed74b3aa084586058464f2053be0652"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P32_up.csv",
+      "bytes": 31568,
+      "sha256": "aaa71d8f39a4b13cfb8fedba1c1e9540a15ce3ababbd8a6a221acf18804dd63e"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P4_down.csv",
+      "bytes": 22494,
+      "sha256": "fd47710519dd0ee3f59013fc735a6d8331253cbe3aafca83e67cbfdec6f9444d"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P4_up.csv",
+      "bytes": 31602,
+      "sha256": "3a9683f1f38b712500914c5243559d16cc9b6ea8955032e36bfe8b9b1cfe776f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P8_down.csv",
+      "bytes": 5625,
+      "sha256": "61a42821568881a6b4dccb29c7003507185db99fbf9005e45cf613a4ca015482"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/cascade_P8_up.csv",
+      "bytes": 24550,
+      "sha256": "577b93109498ba300a5443b0acd83ceb4975ce65bdb3b39e4c5944f24039ffaa"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/narrow_down.csv",
+      "bytes": 11928,
+      "sha256": "fba5628873f98d85332630951b99210fae2a43269fa8f3d4f0359b7c32837381"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/narrow_up.csv",
+      "bytes": 6969,
+      "sha256": "dec8b49fb0a483fab1c9ead021c41bb69ec3025c415086877b16c660477b5e2f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P1.csv",
+      "bytes": 144219,
+      "sha256": "b338ce455b330eaf3a514adc9b0d356a2834c1425e6363d5ba9e08096daaf7d2"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P16.csv",
+      "bytes": 495310,
+      "sha256": "d024227008aead233a57496825aed31b050a959daa808a2c0d51ca8329b92ddb"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P2.csv",
+      "bytes": 143150,
+      "sha256": "29c2424f11ba2af54d81003ef1a932173245c420026771f73c1f957616c112ed"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P32.csv",
+      "bytes": 989258,
+      "sha256": "bbe8b888cb4d16cea0c3434ff10980586b476a15d327188a51d1a3960a747dd6"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P4.csv",
+      "bytes": 143043,
+      "sha256": "c7fb8fe3e8567395c22c360a6be440a8ca84a31211b4c453b4b6443e8c6bd355"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/orbit_P8.csv",
+      "bytes": 247698,
+      "sha256": "6820a7c99b2bef2920463f9a2a840cc8bf139279417ee94a4ba4477a398d20bb"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/periodic_branch_catalog.csv",
+      "bytes": 1166,
+      "sha256": "500784c5dc4e8f466511e966ff80c8699d34cc41a91cc43d2d0a0315888f5f98"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/primary_down.csv",
+      "bytes": 20530,
+      "sha256": "571513be3de01df9d236d815e0afc1174e9746bb1df262ebc7ffbbf4ca42aad5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/primary_period_doubling_cascade.csv",
+      "bytes": 535,
+      "sha256": "cbefd6bd36ad848608700ac7fd5bd233707791c3d50d41a899a895447378e8b7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/primary_up.csv",
+      "bytes": 64273,
+      "sha256": "e3bdd0d4dc0d5c8069c8971f32714013a1aad23847e9e48203f068e4f0d51df5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_P32_cont1.csv",
+      "bytes": 49929,
+      "sha256": "12a5b622e1fc6aea117f81ac0c3df0a7bb7a4b46d1ddb6ef1c2e707eaef183a6"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_P32_cont2.csv",
+      "bytes": 79370,
+      "sha256": "440bba7738fdb423e5ef36c61a6b06ea41d0e21cf64129502baad91f7bff44c5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_P32_cont3.csv",
+      "bytes": 62618,
+      "sha256": "cc2a239fdb3b0b101dce3d9d4a539427cc02b3866f656392b7a66c10d992ac5f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_P32_plus1.csv",
+      "bytes": 11009,
+      "sha256": "aae4a9de77dc97a0fb3df3cd69144365723ffe16cbeae9889c46c15074aa7820"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_PD1.csv",
+      "bytes": 32730,
+      "sha256": "6b9633084835fdee64477b94a7bfa9d6f2eb2ba1b3ffa59ca326897eae7a63c3"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_broad_lower.csv",
+      "bytes": 23041,
+      "sha256": "532aeec208ccb70eef4d2b9b74cb6cee01cba31238c66f5d22b7560bb1bfa9fe"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_broad_reversePD.csv",
+      "bytes": 47942,
+      "sha256": "2db9c36ff11d4795049ed3c190081fc20881b96e54b7649216e1ac10f520ec00"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_broad_upper.csv",
+      "bytes": 17733,
+      "sha256": "7e308fa10f4821cc1257f86b2a7f043f20cd413bd275a2175083208d301298e1"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_narrow_PD.csv",
+      "bytes": 50835,
+      "sha256": "9d86c245b5b94fcfa65666251db8d50ec9756f088f566d09c8b20cb357396348"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_narrow_lower.csv",
+      "bytes": 5717,
+      "sha256": "513404866f607141fd4c413f9bf4f5360ebba51cbc54328295902f5e204455fd"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/refine_window_C1_lower.csv",
+      "bytes": 9432,
+      "sha256": "29da1854d6dee07534af9a05c4e08f8ef0d928600aabceb9f29c126c9bb7315b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/representative_floquet_spectra.csv",
+      "bytes": 3135,
+      "sha256": "36594084787b9fe6a2eb100d233f94772fc1f0c24104bb21ca655798007c08ae"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C1_down.csv",
+      "bytes": 39994,
+      "sha256": "08d9ad43834580c41a2a61ffe226eca00c6a6064d0f91649be1cad9ab5031021"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C1_up.csv",
+      "bytes": 122086,
+      "sha256": "d58b6610bd70ab4fb993508c8044284d500ab5c29d532a8d0e4d4cdfde29169d"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C2_down.csv",
+      "bytes": 8813,
+      "sha256": "22a9c950273172968bac34663c143080cf20295539f3ee64cd6db0b7d660ac00"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C2_up.csv",
+      "bytes": 83729,
+      "sha256": "62dc87cfd8c96c3ddf9aced687f90df764c3bc8163a572c67778b23e0597af9c"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C4_down.csv",
+      "bytes": 26111,
+      "sha256": "e9dd8848091d2ff71ef366929514efb1f98f5495f9336feb0b55b954f1983db4"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/periodic_branches/window_C4_up.csv",
+      "bytes": 8287,
+      "sha256": "af3ff56bb9696c9d2e1af24ca51f5b87b74b53a7a17702157a16097fbd61ebd7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/primary_period_doubling_cascade.csv",
+      "bytes": 535,
+      "sha256": "cbefd6bd36ad848608700ac7fd5bd233707791c3d50d41a899a895447378e8b7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/representative_floquet_spectra.csv",
+      "bytes": 3135,
+      "sha256": "36594084787b9fe6a2eb100d233f94772fc1f0c24104bb21ca655798007c08ae"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/archived_phase_sampling.json",
+      "bytes": 994,
+      "sha256": "ddcf4cd59382a652c609c13c52104ea9ecaf961141eaac29993410a25932efaf"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/broad_branch_section_check.json",
+      "bytes": 299,
+      "sha256": "907e3ae513a011ede59bf07099d55330f70e1a480bdac3baefd6516c18f9ab62"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/execution_manifest.json",
+      "bytes": 1438,
+      "sha256": "e1381e4a9b0f19fadf0f62a45807ea4394bca094771c887bd8f1aaac594acd00"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/extended_protocol_II_omega2.json",
+      "bytes": 1348,
+      "sha256": "7de4d57a7258f65977b65a3220aea95f1ba1bd916c25ea83bfacf481d51a79ec"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/independent_orbit_checks.csv",
+      "bytes": 896,
+      "sha256": "bc0247c101cba053535ca0db2249f60fd863feb6a469779a3900f1866dc666ab"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/orbit_Broad_P2_0.4875.csv",
+      "bytes": 283497,
+      "sha256": "eadde3b6fefeacf156653cd3cf27577cd21886e26a8f0799ae36de96e202f574"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/orbit_Broad_P2_0.7000.csv",
+      "bytes": 285958,
+      "sha256": "5eecbd6018302f78a9b5711b98e7e6db9245b5b53283d074b4abbaa1f3b1b170"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/orbit_Broad_P2_0.7280.csv",
+      "bytes": 286250,
+      "sha256": "adc55fb8fd10c5b866d59c8819b2bc29db40fead80cd6f79bc3e9c334c7ad66f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/orbit_P2_0.4875.csv",
+      "bytes": 286554,
+      "sha256": "161496d48929937158a5b16f6f01a044c6ea293abb4b87a412c00f482d8b5af8"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/orbit_Window_C1_0.7280.csv",
+      "bytes": 285975,
+      "sha256": "88775adc3f1c704fe6c70036d5f0ca3f30ebe70d694daca4f59899f0e5456cbe"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/primary_flip_brackets.csv",
+      "bytes": 1543,
+      "sha256": "a3f410c191347f1ba9e4e6f03523cb109264673b3a7f693bdda2900cd95c7a22"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/protocol_II_archived_stroboscopic.csv",
+      "bytes": 5581,
+      "sha256": "131572cc94ea759263fcff0e9bd1b3f035dcd30eafc3f96dbc7ab79b9771d3f1"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/protocol_II_omega2_late_response.csv",
+      "bytes": 337495,
+      "sha256": "7b130657cd9a38ccc94b09027a5e79ef34dde1f5c15e55945b8a7e564e20eeab"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/protocol_II_omega2_periodic_response.json",
+      "bytes": 536,
+      "sha256": "d94e2d80aa4c4c5a98f7d9be39fb86556e477d6e5779b7030da4adf91ad1988d"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/protocol_II_omega2_stroboscopic.csv",
+      "bytes": 55627,
+      "sha256": "149cf6ba838de8794877f315cc32a8d2eb52c4c0cce61760ce7c41e76db8f3d4"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/protocol_I_archived_stroboscopic.csv",
+      "bytes": 21320,
+      "sha256": "575f649a6c7a7c0d1aa889723c2bf34d60191bdd4099a1906a5e3161f22cfde2"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/spectrum_gamma060_dt0025_T2000.csv",
+      "bytes": 329,
+      "sha256": "8ac459f004c24df3a49e405f6760b81aec61dd16c237d62f2e365ad77977069d"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/spectrum_gamma060_dt0025_T4000.csv",
+      "bytes": 329,
+      "sha256": "65356cedb99ac89f684e91f2fd27619a87b3a174f95cbea029829c88b36443d0"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/spectrum_gamma060_dt005_T2000.csv",
+      "bytes": 328,
+      "sha256": "f3fd3cdd869c1c4f746dde5faf2013075905fab9835e44370ec89e118a2a3023"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/validation/symbolic_and_hopf_checks.json",
+      "bytes": 515,
+      "sha256": "2904be5c8b3549325b6c5c786b8db8df5debe85e7ec726007e726592b3e8f39b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/static_bifurcation_peaks.csv",
+      "bytes": 1716123,
+      "sha256": "6c3db822522d26e6e2dbbd60f5f8bcf7b29c0a060630f9bca9e14f586de1659f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati/static_scan.csv",
+      "bytes": 30214,
+      "sha256": "902ad8689d1770cbc9b457b74783cc913f28a7572bfabb2d001bc86372f6206a"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p2_dense_metadata.txt",
+      "bytes": 225,
+      "sha256": "84c12cb673e327cbb9cd08c8fc54e734aac092f3b3183540dc71725936726934"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p2_dense_timeseries.zip",
+      "bytes": 18548299,
+      "sha256": "5880586d7c6800537a4bcea6abc13fb37d6df1bb2fd48211e78a3437f1497777"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p2_metadata.txt",
+      "bytes": 205,
+      "sha256": "d39b46b23a219664ffbcd0affbc23de8f54bb243626b72ca6a8f02cb629135b8"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p2_timeseries.csv",
+      "bytes": 9433484,
+      "sha256": "635ec07e8a146d7bc0edb0566a9774c36cbfa45dc33f20304fc1f97c242bc3bb"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p8_metadata.txt",
+      "bytes": 205,
+      "sha256": "dc60ddc1ee90c95ac43df9d802a63932fa19199f66d006c774e4569717193d9c"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_II_omega_0p8_timeseries.csv",
+      "bytes": 9194693,
+      "sha256": "e364336116b2b12e5ea42cc4e5093e14b1d0bf4f231edbfaa6bc16f724fe96cf"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p2_metadata.txt",
+      "bytes": 205,
+      "sha256": "4a479b25500f8d4d3a79dd29fa82cc430b59f8bd4397b69afd43f2f948bb8419"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p2_timeseries.csv",
+      "bytes": 9079441,
+      "sha256": "eeec70e01adfdf1bb340257c2897557599015cda2fcae679b4b15eb2650af982"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p8_dense_metadata.txt",
+      "bytes": 225,
+      "sha256": "03d88a8d937d64083e6a68bf48db1def9ec1a0347cb13ff1b5f00d7336496d57"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p8_dense_timeseries.zip",
+      "bytes": 18378742,
+      "sha256": "3b61e3e1c69cdfc09b2a79074eff559b11ee85fa3e57dc4b62fe9e6767af5051"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p8_metadata.txt",
+      "bytes": 205,
+      "sha256": "e5e73d1befae6a058415df0338bc56e6fcc1294647dd2eec2c0d2d540e783871"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/protocol_I_omega_0p8_timeseries.csv",
+      "bytes": 9082710,
+      "sha256": "5828210eae1fedb97844a6f39f56326b7939d27101eee48cdd5fdd39fff1d866"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p60_metadata.txt",
+      "bytes": 118,
+      "sha256": "5a7111cf35953ebc7340755146428a1c3ae5861a64f4837513a59e5e84d549c0"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p60_poincare.csv",
+      "bytes": 81005,
+      "sha256": "6f86fcfd232a6f092cde0845c68c2bae04e421891236720086de7f183fc76e9e"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p60_timeseries.zip",
+      "bytes": 12430215,
+      "sha256": "56b7f6e1ae8bf035a399f70d63020d9ea97070a92609d049202d2d94b46a4827"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p70_metadata.txt",
+      "bytes": 117,
+      "sha256": "e3d5c8d8c9dcca071585df4d407c830fe2a2d86464562146a7ea946ad71b3eb7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p70_poincare.csv",
+      "bytes": 28925,
+      "sha256": "2039bc9c725e0717c9fae83434881d25ffb110241f36006a2622fb4496b5f8e5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/riccati_dense/static_gamma_0p70_timeseries.csv",
+      "bytes": 8485909,
+      "sha256": "3ec618ef14273efc4538e804935602ebbff41f7bb936dabf6590e63a356d6c86"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/chaotic_poincare.csv",
+      "bytes": 17689,
+      "sha256": "7ff3d718638c46edbdd62763bf33343275217ed0587720f34f485d52364555c6"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/chaotic_timeseries.csv",
+      "bytes": 289862,
+      "sha256": "5c6549c004a7117cbbf5deac66a657249dbee8e4ceaa6a87c6e22179fd351b2b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/energy_balance_chaotic.csv",
+      "bytes": 96508,
+      "sha256": "281669adb6db194090e73c06ea225386f8b9165483d47ec6d7bb2dea9e5f5322"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/regular_poincare.csv",
+      "bytes": 17692,
+      "sha256": "dd47856f9572fd974f9780c2b4bed6d7f9330d03f2c4c549b242525be8ede991"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/regular_timeseries.csv",
+      "bytes": 208051,
+      "sha256": "8498184c301931828069ed1447952bd409a6a983568729e1703839d2e0ae5342"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin/representative_lyapunov_scan.csv",
+      "bytes": 175,
+      "sha256": "23b670306c01e466a6232ea766879fa9e4d2d8cf58bc2a0a8115f164b18fc4c8"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/chaotic_display_window.csv",
+      "bytes": 2623355,
+      "sha256": "4250431091f72fdc424a7a936b6a543f3a63e458dc18931fb4587d1f816e074f"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/chaotic_metadata.txt",
+      "bytes": 301,
+      "sha256": "ba0790b0a6b3c95d17e7fad403192d75b526e83bcf146a550e63165c15a1a0de"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/chaotic_poincare.csv",
+      "bytes": 314045,
+      "sha256": "9d588f4a99f22d09e1e2b2301c6e5112a4ba6bed43551fd1b967756c738f63db"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/chaotic_timeseries.csv",
+      "bytes": 22877121,
+      "sha256": "2a9991c44b47e57630e8dc2a6ec2bc1e7eca1f0155bd5ec424398b0456f109b7"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/chaotic_work_audit.csv",
+      "bytes": 9534285,
+      "sha256": "e8aba9d76389cbd6b740db761b782ac5e694745e257324812272580c616eb4d5"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/regular_display_window.csv",
+      "bytes": 576724,
+      "sha256": "c8d877859dbbcf717ae623956016962e65561b1b442a54f0db5141028b799858"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/regular_metadata.txt",
+      "bytes": 313,
+      "sha256": "687be2a0278cd174e40f7f21008fbf3bca242a42ea7e8ba3081009caa1de4f99"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/regular_poincare.csv",
+      "bytes": 93453,
+      "sha256": "5ce08448e490e677a176764f6ca168ced0543f4273605429fca68cb6270ee673"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/regular_timeseries.csv",
+      "bytes": 6030124,
+      "sha256": "9773df9d91b2edd3625c14d148fecf411bd69a43ff401ed1f192cf6baaa66875"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-I/data/spin_dense/regular_work_audit.csv",
+      "bytes": 2553361,
+      "sha256": "d21c3c6443009a391e28d03e4f153e2455e350d775eb8253a9f87d908992ad6b"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/time_switching/time_scan_full_range_regularized.csv",
+      "bytes": 2231,
+      "sha256": "44a52ab3dfdbb8b7dab919b96f1c5fc1f63729b4f63ee50a554842c3a74c4aec"
+    },
+    {
+      "path": "quaternions-to-pentarnions/part-II/data/time_switching/time_scan_transition_band.csv",
+      "bytes": 2255,
+      "sha256": "577cddd402a2aa09cad3304145ba1e98eaab12e62268a68e6d8939c28f4f974e"
+    }
+  ]
+}

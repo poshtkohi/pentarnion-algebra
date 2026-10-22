@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript(s), this software and the exact commit or release used."
+title: "From Quaternions to Pentarnions II: Quadratic differential equations — computational companion"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Poshtkohi"
+    given-names: "Alireza"
+  - family-names: "Pumplün"
+    given-names: "Susanne"
+repository-code: "https://github.com/poshtkohi/pentarnion-algebra"
+keywords:
+  - "Nonassociative algebras"
+  - "Pentarnion algebras"
+  - "Algebra-valued differential equations"
+  - "Quadratic differential equations"
+  - "Jacobi elliptic solutions"
+  - "Invariant algebraic curves"
+  - "Riccati equations"
+  - "Bifurcation theory"
+  - "Periodic switching"

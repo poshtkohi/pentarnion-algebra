@@ -1,0 +1,25 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+# Generated calculations, figures, caches and executables
+**/outputs/
+**/regenerated/
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+# OS/editor files and local credentials
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key
