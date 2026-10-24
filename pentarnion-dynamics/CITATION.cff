@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the exact repository commit or release used."
+title: "A five-dimensional nonassociative algebra: Elliptic Integrability and Bracketing-Dependent Dynamics — computational companion"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Poshtkohi"
+    given-names: "Alireza"
+  - family-names: "Pumplün"
+    given-names: "Susanne"
+repository-code: "https://github.com/poshtkohi/pentarnion-algebra"
+keywords:
+  - "Pentarnion algebra"
+  - "Nonassociative algebras"
+  - "Elliptic solutions"
+  - "Riccati equations"
+  - "Associators"
+  - "Bracketing-dependent dynamics"

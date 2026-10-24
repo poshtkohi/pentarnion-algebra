@@ -1,0 +1,26 @@
+{
+  "best_ellipse_relative_rms_error": 0.8109480053780702,
+  "equation": {
+    "s_dot": "-2*y*(3*s-z)",
+    "y_dot": "3*(s^2-y^2)-z^2",
+    "z_dot": "-2*y*z"
+  },
+  "initial_state": [
+    1.0,
+    0.0,
+    1.0
+  ],
+  "lower_turning_point": 0.13968058199610653,
+  "max_abs_I1_minus_1": 3.206324095117452e-13,
+  "max_abs_I2_minus_2": 6.616929226765933e-14,
+  "max_abs_resultant_residual": 7.076561558960748e-13,
+  "max_state_norm": 1.4142135623730951,
+  "min_state_norm": 0.15678176560507234,
+  "one_period_return_error": 6.988601121781139e-12,
+  "period_quadrature": 25.013958602665163,
+  "quadrature_error_estimate": 1.3885538740293496e-13,
+  "quartic_discriminant": -94208,
+  "relative_out_of_plane_rms": 0.13014514639151648,
+  "third_pca_variance_fraction": 0.007560393074816445,
+  "weierstrass_model": "W^2=X^3-X-1"
+}

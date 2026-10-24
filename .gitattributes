@@ -15,3 +15,6 @@ quaternions-to-pentarnions/part-I/code/rotational_geometry/verification/** -text
 quaternions-to-pentarnions/part-II/code/riccati_dynamics/validation/symbolic/** -text
 quaternions-to-pentarnions/part-II/code/exact_solutions/ordered_product_maps_flagship.txt -text
 LICENSE -text
+
+# Preserve exact-model data for the original fixed-algebra paper.
+pentarnion-dynamics/data/** -text

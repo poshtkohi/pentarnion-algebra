@@ -23,3 +23,11 @@ Thumbs.db
 .env.*
 *.pem
 *.key
+
+# Generated outputs of the original fixed-algebra programs
+/pentarnion-dynamics/figures/
+/pentarnion-dynamics/notes/
+/pentarnion-dynamics/python_validation_results/
+/pentarnion-dynamics/periodic_continuation.csv
+/pentarnion-dynamics/Pentarnion_rational_validation_results/
+/pentarnion-dynamics/verification_report.txt

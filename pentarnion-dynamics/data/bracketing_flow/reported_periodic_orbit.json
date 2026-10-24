@@ -1,0 +1,44 @@
+{
+  "eta": 1.0,
+  "initial_point_source": "manuscript Equation (7.25)",
+  "period_source": "manuscript Equation (7.26)",
+  "phase_point": [
+    0.352211456319145,
+    0.280943768469983,
+    0.580647718066596,
+    0.27440353042783,
+    0.442578560477541
+  ],
+  "period": 5.795118818486838,
+  "closure_norm": 6.888752704931532e-16,
+  "flow_multiplier_residual": 2.2202490031430272e-14,
+  "max_transverse_multiplier": 0.5263537628690017,
+  "floquet": [
+    {
+      "real": 0.9999999999999925,
+      "imag": 0.0,
+      "modulus": 0.9999999999999925
+    },
+    {
+      "real": 0.5263537628690017,
+      "imag": 0.0,
+      "modulus": 0.5263537628690017
+    },
+    {
+      "real": -0.15203746282529373,
+      "imag": 0.0,
+      "modulus": 0.15203746282529373
+    },
+    {
+      "real": 0.013976494310777396,
+      "imag": 0.0,
+      "modulus": 0.013976494310777396
+    },
+    {
+      "real": -9.218380707893491e-06,
+      "imag": 0.0,
+      "modulus": 9.218380707893491e-06
+    }
+  ],
+  "verification": "floating-point reintegration; not an interval certificate"
+}

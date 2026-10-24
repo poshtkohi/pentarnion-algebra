@@ -1,0 +1,26 @@
+{
+  "initial_condition": [
+    0.3333333333333333,
+    0.0,
+    0.5773502691896258,
+    0.0,
+    0.0
+  ],
+  "compensated_eta": 1.0,
+  "period": 6.283185307179586,
+  "high_resolution_samples": 200001,
+  "maximum_exact_orbit_residual": 5.329070518200751e-15,
+  "maximum_compact_component_error": 8.881784197001252e-15,
+  "maximum_q_projection_error": 0.0,
+  "initial_associator": [
+    0.0,
+    -0.16666666666666666,
+    0.0,
+    0.16666666666666666,
+    0.3333333333333334
+  ],
+  "initial_associator_error": 1.1102230246251565e-16,
+  "deformed_eta": 0.9,
+  "deformed_one_period_return_defect": 0.6075446534417407,
+  "deformed_maximum_deviation_from_exact": 1.2366347268238815
+}

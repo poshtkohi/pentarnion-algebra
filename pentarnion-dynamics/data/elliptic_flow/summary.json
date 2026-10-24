@@ -1,0 +1,14 @@
+{
+  "initial_condition": [
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "jacobi_modulus": 0.5,
+  "period": 7.4162987092054875,
+  "high_resolution_samples": 200001,
+  "maximum_exact_orbit_residual": 8.881784197001252e-16,
+  "maximum_compact_component_error": 7.105427357601002e-15
+}

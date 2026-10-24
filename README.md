@@ -1,13 +1,25 @@
-# Pentarnion Algebra — Parts I and II
+# Pentarnion Algebra
 
 Code and data accompanying the papers by **Alireza Poshtkohi and Susanne Pumplün**.
 
 | Paper | Computational companion |
 | --- | --- |
+| *A five-dimensional nonassociative algebra: Elliptic Integrability and Bracketing-Dependent Dynamics* | [Original paper](pentarnion-dynamics/README.md) |
 | *From Quaternions to Pentarnions I: Algebra, geometry, and a spin model* | [Part I](quaternions-to-pentarnions/part-I/README.md) |
 | *From Quaternions to Pentarnions II: Quadratic differential equations* | [Part II](quaternions-to-pentarnions/part-II/README.md) |
 
-## Installation and verification
+## Original fixed-algebra paper
+
+The [`pentarnion-dynamics/`](pentarnion-dynamics/README.md) folder contains
+its Python/MATLAB source, exact-model sample data and the computational guide
+moved from Appendix B. Its installation and check command is separate:
+
+```bash
+python -m pip install -r pentarnion-dynamics/requirements.txt
+python pentarnion-dynamics/run_checks.py
+```
+
+## Parts I and II: installation and verification
 
 From the repository root, using Python 3.10 or later:
 
@@ -21,7 +33,7 @@ The default check runs the unit and reference-data integrity tests. The full
 command also runs the symbolic verifications and generates the manuscript
 figures from formulas and reference data. Compressed CSV inputs are read directly.
 
-## Numerical experiments
+## Parts I and II: numerical experiments
 
 With a C++17 compiler (`g++` or `clang++`) on PATH:
 
